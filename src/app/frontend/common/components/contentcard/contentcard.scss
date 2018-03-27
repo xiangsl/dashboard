@@ -44,7 +44,7 @@ kd-content-card {
   height: 7 * $baseline-grid;
   line-height: 5 * $baseline-grid;
   margin: 0;
-
+  background-color:$title-head;
   kd-title {
     font-weight: $regular-font-weight;
 

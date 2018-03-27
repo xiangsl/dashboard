@@ -66,6 +66,10 @@ class LoginController {
 
   /** @export */
   $onInit() {
+    /**modify by tydic 默认不认证……**/
+    if(1==1){
+      this.skip();
+    }
     // Check for errors that came during state transition
     if (this.state_.params.error) {
       this.errors.push(this.errorService_.toBackendApiError(this.state_.params.error));
